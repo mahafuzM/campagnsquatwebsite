@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #02050A;
+    @apply text-slate-300;
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-bold tracking-tight;
+  }
+}
+
+/* Scrollbar purapuri hide korar jonno nicher code tuku */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* Ba-daan er scroll bondho */
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+/* Chrome/Safari-te scrollbar hide kora */
+::-webkit-scrollbar {
+  display: none;
+}
