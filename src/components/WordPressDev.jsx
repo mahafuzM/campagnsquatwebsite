@@ -101,9 +101,11 @@ const WordPressDev = () => {
                                 We go beyond simple templates to build enterprise-grade, high-performance WordPress solutions that are secure and scalable.
                             </p>
                             <div className="flex flex-col sm:flex-row items-center gap-5 justify-center lg:justify-start pt-2">
-                                <button className="w-full sm:w-auto bg-[#F7A400] text-white font-semibold py-4 px-10 text-[16px] md:text-[18px] rounded-lg transition-all duration-300 transform hover:-translate-y-1  border-2 border-[#f7a400] hover:bg-[#02050a]">
-                                    Build My WP Site
-                                </button>
+                                <Link to="/contact" className="w-full sm:w-auto">
+                                                                 <button className="w-full sm:w-auto bg-[#F7A400] border-[#f7a400] border-2 text-white font-semibold py-4 px-10 text-[16px] md:text-[18px] rounded-lg transition-all duration-300 transform hover:bg-[#02050A]  active:scale-95 shadow-lg shadow-[#F7A400]/10 group">
+                                                               Get Started
+                                                               </button>
+                                                             </Link>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 relative flex justify-center lg:justify-end">
