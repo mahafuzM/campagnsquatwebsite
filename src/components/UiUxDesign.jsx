@@ -27,7 +27,7 @@ import img7 from '../assets/images/479f22210697035.Y3JvcCwyNjA5LDIwNDAsMTM1LDA.p
 import img8 from '../assets/images/original-e2914736408e4069af7f75a4d351c1b7.webp';
 import BrandSlider from './BrandSlider';
 
-const UIUXDesign = () => {
+const UiUxDesign = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -267,4 +267,4 @@ const UIUXDesign = () => {
     );
 };
 
-export default UIUXDesign;
+export default UiUxDesign;
