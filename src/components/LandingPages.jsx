@@ -96,7 +96,7 @@ const LandingPages = () => {
                 <div className="max-w-[1445px] mx-auto px-6 md:px-12 lg:px-20 relative z-10 w-full">
                     <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
                         <div className="w-full lg:w-1/2 flex flex-col space-y-6 md:space-y-8 text-center lg:text-left">
-                            <h1 className="text-4xl md:text-5xl lg:text-[60px] font-bold text-white leading-tight">High-Conversion Landing Pages</h1>
+                            <h1 className="text-4xl md:text-5xl lg:text-[60px] font-bold text-white leading-tight  eading-[1.2] md:leading-[1.4] lg:leading-[1.4]">High-Conversion Landing Pages</h1>
                             <p className="text-white text-[16px] md:text-[19px] max-w-[520px] mx-auto lg:mx-0 leading-relaxed font-normal">
                                 We build landing pages that don't just look great—they turn visitors into customers through strategic design and performance engineering.
                             </p>
